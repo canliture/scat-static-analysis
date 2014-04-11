@@ -1,0 +1,13 @@
+digraph cfg {
+  label="sql_index.php_5_min";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\medium.php : 12\nVar: $getid\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\medium.php : 10\nVar: $id\nFunc: _main\n"];
+  n3 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\medium.php : 8\nbuiltin function:\nmysql_real_escape_string\n"];
+  n4 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\medium.php : 8\nVar: $id\nFunc: _main\n"];
+  n5 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\medium.php : 7\nVar: $_GET[id]\nFunc: _superglobals\n",style=filled];
+  n1 -> n2;
+  n2 -> n3;
+  n3 -> n4;
+  n4 -> n5;
+}

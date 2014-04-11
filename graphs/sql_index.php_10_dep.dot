@@ -1,0 +1,7 @@
+digraph cfg {
+  label="sql_index.php_10_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 16\nVar: $drop_db\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 15\nLit: DROP DATABASE IF EXISTS dvwa;\n"];
+  n1 -> n2;
+}

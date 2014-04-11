@@ -1,0 +1,19 @@
+digraph cfg {
+  label="sql_index.php_2_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\low.php : 10\nVar: $getid\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\low.php : 9\nVar: _t0_24\nFunc: _main\n"];
+  n3 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\low.php : 9\nbuiltin function:\n.\n"];
+  n4 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\low.php : 9\nVar: _t0_24\nFunc: _main\n"];
+  n5 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\low.php : 9\nVar: $id\nFunc: _main\n"];
+  n6 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\low.php : 7\nVar: $_GET[id]\nFunc: _superglobals\n"];
+  n7 [shape=box, label="<uninit>",style=filled];
+  n8 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli\source\low.php : 9\nLit: '\n"];
+  n2 -> n3;
+  n6 -> n7;
+  n5 -> n6;
+  n4 -> n5;
+  n3 -> n4[label="Param #1"];
+  n3 -> n8[label="Param #2"];
+  n1 -> n2;
+}

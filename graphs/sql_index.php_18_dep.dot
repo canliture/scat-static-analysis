@@ -1,0 +1,7 @@
+digraph cfg {
+  label="sql_index.php_18_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 23\nVar: $create_db\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 21\nLit: CREATE DATABASE dvwa;\n"];
+  n1 -> n2;
+}

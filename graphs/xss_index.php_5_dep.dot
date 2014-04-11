@@ -1,0 +1,5 @@
+digraph cfg {
+  label="xss_index.php_5_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\upload\source\medium.php : 28\nLit: <pre>Your image was not uploaded.</pre>\n"];
+}

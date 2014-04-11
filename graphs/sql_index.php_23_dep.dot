@@ -1,0 +1,7 @@
+digraph cfg {
+  label="sql_index.php_23_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 66\nVar: $create_tb_guestbook\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 64\nLit: CREATE TABLE guestbook (comment_id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT, comment varchar(300), name varchar(100), PRIMARY KEY (comment_id));\n"];
+  n1 -> n2;
+}

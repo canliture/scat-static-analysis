@@ -1,0 +1,7 @@
+digraph cfg {
+  label="sql_index.php_24_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 77\nVar: $insert\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 74\nLit: INSERT INTO guestbook VALUES('1','This is a test comment.','test');\n"];
+  n1 -> n2;
+}

@@ -1,0 +1,31 @@
+digraph cfg {
+  label="sql_index.php_8_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 15\nVar: $insert\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 14\nVar: _t0_18\nFunc: _main\n"];
+  n3 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 14\nbuiltin function:\n.\n"];
+  n4 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 14\nVar: _t0_18\nFunc: _main\n"];
+  n5 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 14\nVar: $pass_new\nFunc: _main\n"];
+  n6 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 12\nVar: _t0_18\nFunc: _main\n"];
+  n7 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 12\nbuiltin function:\nmd5\n"];
+  n8 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 12\nVar: $pass_new\nFunc: _main\n"];
+  n9 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 11\nVar: _t0_18\nFunc: _main\n"];
+  n10 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 11\nbuiltin function:\nmysql_real_escape_string\n"];
+  n11 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 11\nVar: $pass_new\nFunc: _main\n"];
+  n12 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 6\nVar: $_GET[password_new]\nFunc: _superglobals\n"];
+  n13 [shape=box, label="<uninit>",style=filled];
+  n14 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\csrf\source\low.php : 14\nLit: ' WHERE user = 'admin';\n"];
+  n2 -> n3;
+  n6 -> n7;
+  n9 -> n10;
+  n12 -> n13;
+  n11 -> n12;
+  n10 -> n11[label="Param #1"];
+  n8 -> n9;
+  n7 -> n8[label="Param #1"];
+  n5 -> n6;
+  n4 -> n5;
+  n3 -> n4[label="Param #1"];
+  n3 -> n14[label="Param #2"];
+  n1 -> n2;
+}

@@ -1,0 +1,11 @@
+digraph cfg {
+  label="cmdexec_index.php_1_min";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\exec\source\low.php : 10\nVar: _t1_15\nFunc: _main\n"];
+  n2 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\exec\source\low.php : 10\nbuiltin function:\n.\n"];
+  n3 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\exec\source\low.php : 10\nVar: $target\nFunc: _main\n"];
+  n4 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\exec\source\low.php : 5\nVar: $_REQUEST[ip]\nFunc: _superglobals\n",style=filled];
+  n1 -> n2;
+  n2 -> n3;
+  n3 -> n4;
+}

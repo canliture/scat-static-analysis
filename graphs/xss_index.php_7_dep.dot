@@ -1,0 +1,5 @@
+digraph cfg {
+  label="xss_index.php_7_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\login.php : 43\nLit: Content-Type: text/html;charset=utf-8\n"];
+}

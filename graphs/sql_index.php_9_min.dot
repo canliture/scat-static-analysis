@@ -1,0 +1,19 @@
+digraph cfg {
+  label="sql_index.php_9_min";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 15\nVar: $qry\nFunc: _main\n"];
+  n2 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 14\nbuiltin function:\n.\n"];
+  n3 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 14\nbuiltin function:\n.\n"];
+  n4 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 14\nbuiltin function:\n.\n"];
+  n5 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 14\nVar: $user\nFunc: _main\n"];
+  n6 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 7\nbuiltin function:\nmysql_real_escape_string\n"];
+  n7 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 7\nVar: $user\nFunc: _main\n"];
+  n8 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\brute\source\medium.php : 6\nVar: $_GET[username]\nFunc: _superglobals\n",style=filled];
+  n1 -> n2;
+  n2 -> n3;
+  n3 -> n4;
+  n4 -> n5;
+  n5 -> n6;
+  n6 -> n7;
+  n7 -> n8;
+}

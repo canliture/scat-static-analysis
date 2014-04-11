@@ -1,0 +1,7 @@
+digraph cfg {
+  label="sql_index.php_21_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 37\nVar: $create_tb\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\dvwa\includes\DBMS\MySQL.php : 36\nLit: CREATE TABLE users (user_id int(6),first_name varchar(15),last_name varchar(15), user varchar(15), password varchar(32),avatar varchar(70), PRIMARY KEY (user_id));\n"];
+  n1 -> n2;
+}

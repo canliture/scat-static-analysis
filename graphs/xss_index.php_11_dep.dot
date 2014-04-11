@@ -1,0 +1,5 @@
+digraph cfg {
+  label="xss_index.php_11_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\external\phpids\0.6\docs\examples\example.php : 113\nLit: <a href=\"?test=%22><script>eval(window.name)</script>\">No attack detected - click for an example attack</a>\n"];
+}

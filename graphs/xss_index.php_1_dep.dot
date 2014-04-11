@@ -1,0 +1,5 @@
+digraph cfg {
+  label="xss_index.php_1_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\fi\source\high.php : 7\nLit: ERROR: File not found!\n"];
+}

@@ -1,0 +1,5 @@
+digraph cfg {
+  label="xss_index.php_6_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\login.php : 42\nLit: Cache-Control: no-cache, must-revalidate\n"];
+}

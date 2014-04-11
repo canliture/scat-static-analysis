@@ -1,0 +1,5 @@
+digraph cfg {
+  label="xss_index.php_8_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\login.php : 44\nLit: Expires: Tue, 23 Jun 2009 12:00:00 GMT\n"];
+}

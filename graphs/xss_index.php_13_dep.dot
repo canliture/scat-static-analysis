@@ -1,0 +1,7 @@
+digraph cfg {
+  label="xss_index.php_13_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\external\phpids\0.6\docs\examples\example.php : 120\nVar: $e\nFunc: _main\n"];
+  n2 [shape=box, label="<uninit>"];
+  n1 -> n2;
+}

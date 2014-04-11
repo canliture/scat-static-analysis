@@ -1,0 +1,9 @@
+digraph cfg {
+  label="xss_index.php_10_min";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\external\phpids\0.6\docs\examples\example.php : 82\nVar: $result\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\external\phpids\0.6\docs\examples\example.php : 69\nVar: $ids\nFunc: _main\n"];
+  n3 [shape=box, label="C:\xampp\htdocs\dvwa1\external\phpids\0.6\docs\examples\example.php : 68\nVar: _object\nFunc: _special\n",style=filled];
+  n1 -> n2;
+  n2 -> n3;
+}

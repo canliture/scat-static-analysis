@@ -1,0 +1,19 @@
+digraph cfg {
+  label="sql_index.php_3_dep";
+  labelloc=t;
+  n1 [shape=doubleoctagon, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli_blind\source\medium.php : 11\nVar: $getid\nFunc: _main\n"];
+  n2 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli_blind\source\medium.php : 10\nVar: _t0_35\nFunc: _main\n"];
+  n3 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli_blind\source\medium.php : 10\nVar: $id\nFunc: _main\n"];
+  n4 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli_blind\source\medium.php : 8\nVar: _t0_35\nFunc: _main\n"];
+  n5 [shape=ellipse, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli_blind\source\medium.php : 8\nbuiltin function:\nmysql_real_escape_string\n"];
+  n6 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli_blind\source\medium.php : 8\nVar: $id\nFunc: _main\n"];
+  n7 [shape=box, label="C:\xampp\htdocs\dvwa1\vulnerabilities\sqli_blind\source\medium.php : 7\nVar: $_GET[id]\nFunc: _superglobals\n"];
+  n8 [shape=box, label="<uninit>",style=filled];
+  n4 -> n5;
+  n7 -> n8;
+  n6 -> n7;
+  n5 -> n6[label="Param #1"];
+  n3 -> n4;
+  n2 -> n3;
+  n1 -> n2;
+}
