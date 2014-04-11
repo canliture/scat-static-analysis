@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/MyWorkSpace/SCAT/src/VisualizePT/GraphViz.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/XPathAnalysis.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/XSSAnalysis.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/CodeEvaluatingAnalysis.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/GenericTaintAnalysis.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/SCATGUI.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/CommandExecutionAnalysis.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/conversion/ProgramConverter.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/SQLAnalysis.java</file>
+            <file>file:/D:/MyWorkSpace/SCAT/src/pixy/Checker.java</file>
+        </group>
+    </open-files>
+</project-private>
