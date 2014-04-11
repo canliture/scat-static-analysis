@@ -1,0 +1,18 @@
+# standard XSS sinks
+
+# format:
+# <functionName> = <parameter list>
+# - use only lowercase characters for the function's name
+# - the parameter list's entries are separated with :
+printf = 
+# xyz = 0:1:3
+
+echo =  
+# xyz = 0:1:3
+
+print = 
+# xyz = 0:1:3
+
+header = 0
+# xyz = 0:1:3
+
